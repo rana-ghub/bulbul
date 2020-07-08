@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+body{
+    background: linear-gradient(#c087fa,#c065fc, #984de3);
+}
+.container{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 120px auto;
+    
+}
+.option{
+    background-color: azure;
+    padding: 10px;
+    width: 50%;
+    margin: 25px auto;
+    text-align: center;
+    border: 2px solid pink;
+    border-radius: 12px;
+}
+.touched{
+    background-color: rgb(88, 219, 110);
+    border-radius: 12px;
+    padding: 10px;
+    width: 50%;
+    margin: 25px auto;
+    text-align: center;
+    border: 2px solid green;
+    font-weight: 550;
+}
+.option:hover{
+    height: 30px;
+    font-weight: 550;
+    cursor: pointer;
+}
+h2{
+    font-family: 'Poppins';
+}
+#Mansayy{
+    font-size: 2.2rem;
+    font-weight: 550;
+    font-family: 'Bangers', cursive;
+}
+.last{
+    text-align: center;
+    
+}
+.last li{
+    list-style-type: none;
+    font-family: 'poppins';
+    font-size: 23px;
+    line-height: 3.3rem;
+    background-color: antiquewhite;
+    border: 1px solid pink;
+}
+.last ul{
+    margin: 3rem auto;
+    width: 90%;
+}
+#if{
+    font-family: 'Poppins';
+}
+
+
+.next {
+    color: rgb(21, 111, 255);
+    border: 1px solid #94d330; 
+    border-radius: 10px;
+    width: 100px;
+    font-weight: 550;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.next:hover {
+    border: 1px solid #EB5200;
+    background: -webkit-linear-gradient(top, #FD924C, #F9760B); 
+    background: -moz-linear-gradient(top, #FD924C, #F9760B); 
+    background: -ms-linear-gradient(top, #FD924C, #F9760B); 
+    box-shadow: 0 1px #EFEFEF;
+}
+
+.next:active {
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.finish{
+    background-color: #e68830;
+    border-color: #e0d42c;
+    padding: 10px 20px;
+    font-weight: 550;
+    font-size: 0.7rem;
+}
+  
+.finish:hover{
+    background-color: #f65454;
+}
+  
+.finish:active{
+    background: #d3d632;
+}
+
+
+.playAgain {
+    color: #2f1313;
+    background: #eb3361;
+    border: 1px #DADADA solid;
+    padding: 10px 15px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Poppins';
+    outline: none;
+}
+
+.playAgain:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+.playAgain:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;   
+}
+#footer{
+    margin-right: 7%;
+    font-family: 'Bangers';
+    font-style: normal;
+    font-weight: 400;
+    text-align: end;
+}
